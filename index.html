@@ -147,15 +147,22 @@
   </ul>
 </section>
 
-<section class="slide">
-  …but how to make that dumb-ass xkcd #37 work?
-  (regex)
-</section>
-
-<section class="slide">
-  part of speech tagging
-  [adjective]-ass [noun]
-  Brill.
+<section class="slide" id="functions">
+  <h2>How to fix that dumb-ass xkcd #37?</h2>
+  <ul>
+    <li>
+      Regular expression with function replacement
+      <ul>
+        <li>[adjective]-ass [noun]</li>
+        <li><code>(\w+)-(ass)(\s+)(\w+)</code></li>
+      </ul>
+    </li>
+    <li>Part-of-speech tagging <em>(Brill, 1992)</em></li>
+    <ul>
+      <li><code>$1</code> should be an adjective</li>
+      <li><code>$4</code> should be a noun</li>
+    </ul>
+  </ul>
 </section>
 
 <section class="slide">
