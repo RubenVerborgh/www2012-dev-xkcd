@@ -55,10 +55,11 @@
 }
 .deck-container .slide li {
   padding: 0;
-  margin: .5em 0;
+  margin: 1em 0 .5em;
 }
 .deck-container .slide li li {
-  margin: .2em 0 .3em;
+  margin: .4em 0 .5em;
+  color: #666666;
 }
 .deck-container .slide li ul,
 .deck-container .slide li ol {
