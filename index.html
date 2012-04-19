@@ -129,9 +129,22 @@
   </ul>
 </section>
 
-<section class="slide">
-  Easy to fix
-  (regex)
+<section class="slide" id="regexp">
+  <h2>Easy to fix with regular expressions</h2>
+  <ul>
+    <li>
+      Example: ellipsis
+      <ul>
+        <li><code>\.\.\.</code> becomes <code>&amp;hellip;</code></li>
+      </ul>
+    </li>
+    <li>
+      Example: avoid orphan &lsquo;<em>a</em>&rsquo;s
+      <ul>
+        <li><code>(\ba)\s(\w+\b)</code> becomes <code>$1&amp;nbsp;$2</code></li>
+      </ul>
+    </li>
+  </ul>
 </section>
 
 <section class="slide">
