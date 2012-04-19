@@ -57,6 +57,9 @@
   padding: 0;
   margin: .5em 0;
 }
+.deck-container .slide li li {
+  margin: .2em 0 .3em;
+}
 .deck-container .slide li ul,
 .deck-container .slide li ol {
   font-size: 90%;
