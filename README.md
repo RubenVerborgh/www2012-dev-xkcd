@@ -1,2 +1,1 @@
-# Applications make the Semantic Web happen
-Ruben Verborgh, Davy Van Deursen, Peter Lambert
+# Fixing the Web One Page at a Time, or Actually Implementing xkcd #37
